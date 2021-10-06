@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /**
  * This injects Tailwind's base styles, which is a combination of
  * Normalize.css and some additional base styles.
@@ -9,7 +12,7 @@
  *
  * @import "tailwindcss/preflight";
  */
- @tailwind preflight;
+ /* @tailwind preflight; */
 
  /**
   * This injects any component classes registered by plugins.
@@ -18,7 +21,7 @@
   *
   * @import "tailwindcss/components";
   */
- @tailwind components;
+ /* @tailwind components; */
  
  /**
   * Here you would add any of your custom component classes; stuff that you'd
@@ -44,7 +47,7 @@
   *
   * @import "tailwindcss/utilities";
   */
- @tailwind utilities;
+ /* @tailwind utilities; */
  
  /**
   * Here you would add any custom utilities you need that don't come out of the
@@ -60,3 +63,7 @@
   * @import "utilities/background-patterns";
   * @import "utilities/skew-transforms";
   */
+
+body{
+    background-color: #ffffff;
+}

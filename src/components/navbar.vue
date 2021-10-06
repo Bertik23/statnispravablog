@@ -66,6 +66,6 @@ export default {
 
 <style lang="postcss" scoped>
     .router-link-exact-active{
-        @apply bg-gray-900
+        /* @apply bg-gray-900 */
     }
 </style>
