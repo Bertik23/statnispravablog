@@ -54,8 +54,10 @@ const loadSavedTheme = () => {
     const maybeTheme = localStorage['theme']
     if (maybeTheme) return JSON.parse(maybeTheme)
   }
-
-  return null
+  else if (window.matchMedia("(prefers-color-scheme: dark)").matches){
+    return NightTheme
+  }
+  return LightTheme
 }
 
 const updateTheme = (theme) => {
@@ -98,7 +100,7 @@ const iconForTheme = (themeName) => {
 // initiate
 
 // set inital theme to light
-updateTheme(LightTheme);
+//updateTheme(LightTheme);
 checkForSavedTheme();
 
 const el = document.getElementById('theme-switcher');
