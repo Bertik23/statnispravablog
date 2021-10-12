@@ -17,7 +17,7 @@
 {% if page.title %} {% assign title = page.title ~ ' - ' ~ page.subtitle %} {% else %} {% assign title = site.blog.title %} {% endif %}
 {% if page.description %} {% assign description = page.description %} {% else %} {% assign description = site.blog.description %} {% endif %}
 {% if page.keywords %} {% assign keywords = page.keywords %} {% else %} {% assign keywords = site.keywords %} {% endif %}
-{% if page.cover %} {% assign cover = page.cover %} {% else %} {% assign cover = site.cover %} {% endif %}
+{% if page.hero %} {% assign cover = page.hero %} {% else %} {% assign cover = site.cover %} {% endif %}
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
