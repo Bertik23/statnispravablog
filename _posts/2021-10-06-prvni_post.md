@@ -6,13 +6,13 @@ tags:
   - update
   - info
 hero: https://source.unsplash.com/collection/430471/
-overlay: lime
+overlay: red
 published: true
 ---
 
 # Vítejte
 Vítám vás na mém novém blogu. Budu tady hodnotit státní správu z pohledu koncového uživatele (aka běžného občana).
-
+<!--break--> 
 Příspěvky budu přidávat průběžně, jak se mi dostane nových zkušeností. Takže ze začátku můžete očekávat celkem časté posty, za svůj život už jsem si toho trochu se státem zažil, až svoje zkušenosti vyčerpám, tak to asi trochu ochladne.
 
 Tento blog zároveň není hotový, jenom jsem chtěl rychle nějaké místo, kam psát. V mezičase budu dělat na pozadí promakanější verzi, která nebude jen stažený template.

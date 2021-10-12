@@ -4,16 +4,26 @@
 table {
   font-size: 0.85em;
   background-color: var(--code-bg-color);
-  box-shadow: 0 1px 2px var(--shadow-color);
+  //box-shadow: 0 1px 2px var(--shadow-color);
   margin-bottom: 1.5rem;
   width: 100%;
   border-collapse: collapse;
+  //border-radius: 10rem;
 }
 
-thead {
+thead{
   text-align: left;
   background-color: var(--code-border);
   border-bottom: 1px solid var(--table-border-color);
+  // border-top-left-radius: 10rem;
+  // border-top-right-radius: 10rem;
+  // border-bottom-left-radius: 10rem;
+}
+
+tfoot{
+  text-align: left;
+  background-color: var(--code-border);
+  border-top: 1px solid var(--table-border-color);
 }
 
 td,
