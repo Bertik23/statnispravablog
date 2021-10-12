@@ -20,10 +20,11 @@
 {% if page.hero %} {% assign cover = page.hero %} {% else %} {% assign cover = site.cover %} {% endif %}
 
 <!-- Twitter Cards -->
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{{ title }}" />
 <meta name="twitter:description" content="{{ description }}" />
 <meta name="twitter:image" content="{{ site.url }}{{ cover }}" />
+<meta name="twitter:site" content="@bertik23"/>
 
 <!-- Google plus -->
 <meta name="author" content="{{ site.author.googleplus }}">
